@@ -1,0 +1,269 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2? family= El+Messiri & family= Oswald:wght@300 & family= PT+Serif:ital@1 & display=swap");
+* {
+  margin: 0;
+  padding: 1px;
+}
+
+:root {
+  --font-secundary:"oswald" ;
+}
+
+header {
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+li:hover {
+  color: rgb(41, 126, 41);
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgb(41, 126, 41);
+}
+#title:hover {
+  color: black;
+  font-size: 5.2em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.anis:hover {
+  color: black; /* Nuevo color de texto al pasar el cursor */
+  font-size: 1.9em; /* Aumenta el tamaño de la fuente al pasar el cursor */
+  text-shadow: 1px 1px 3px; /* Añade un efecto de sombra al texto al pasar el cursor */
+}
+
+section ul li a {
+  color: black;
+}
+
+header {
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  border-radius: 100%;
+}
+
+.logo {
+  width: 7%;
+}
+
+header {
+  font-family: var(--font-secundary);
+  font-weight: 4000;
+  font-size: 16pt;
+  line-height: 0.26;
+}
+
+h1 {
+  font-family: var(--font-secundary), sans-serif;
+  font-size: 100px;
+  margin: 10px 100px 80px 100px;
+  border-bottom: 4px solid rgb(41, 126, 41);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0px;
+  padding-top: 184px;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  border-bottom: 2px solid black;
+  margin: 0px;
+}
+
+.link-ad {
+  margin: 0px;
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  margin: 100px;
+}
+
+li {
+  margin-right: 170px;
+  margin-left: 170px;
+  text-align: center;
+  margin-bottom: 72px;
+  border-bottom: 2px solid rgb(41, 126, 41);
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+
+b {
+  background-color: bisque;
+  border-bottom: 1px solid green;
+  margin: 11px;
+  font-size: medium;
+  font-family: var(--font-secundary), sans-serif;
+}
+
+p {
+  font-family: "Merriweather", serif;
+  margin-bottom: 50px;
+}
+
+.link-logo {
+  margin: 5px;
+}
+
+img {
+  width: 86%;
+  height: auto;
+}
+
+h3 {
+  font-family: var(--font-secundary);
+  font-size: 40px;
+  margin: 10px 63% 8px 10px;
+  border-bottom: 3px solid rgb(41, 126, 41);
+}
+
+.gw {
+  display: flex;
+  justify-content: center;
+}
+
+.contac {
+  width: 25%;
+  height: auto;
+}
+
+.contac2 {
+  width: 87%;
+  height: 100%;
+}
+
+.productos-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 6px;
+  grid-row-gap: 0p;
+}
+
+.titulos-2 {
+  font-family: var(--font-secundary);
+  font-size: 45px;
+  margin: 13px 72% 8px 10px;
+  border-bottom: 3px solid rgb(41, 126, 41);
+  width: 97%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.anis {
+  position: relative;
+  top: -52px;
+  left: 160px;
+}
+
+.cj {
+  font-family: var(--font-secundary);
+  font-size: 45px;
+  border-bottom: 2px solid rgb(41, 126, 41);
+  display: flex;
+  justify-content: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 150px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.caj {
+  border-bottom: 2px solid rgb(41, 126, 41);
+  width: 50%;
+  height: auto;
+}
+
+.regalo {
+  display: flex;
+  justify-content: center;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+}
+
+/* index.html */
+@media only screen and (max-width: 750px) {
+  .contenedor-productos {
+    display: none;
+  }
+  h1 {
+    font-family: var(--font-secundary), sans-serif;
+    font-size: 47px;
+    margin: 0px 50px 20px 50px;
+    border-bottom: 4px solid rgb(41, 126, 41);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+    padding-top: 100px;
+  }
+  li {
+    margin-right: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 18px;
+    border-bottom: 2px solid rgb(41, 126, 41);
+    font-family: "Oswald", sans-serif;
+    font-size: 28px;
+  }
+  a {
+    margin: 44px;
+  }
+  .anis {
+    display: none;
+  }
+  .logo {
+    width: 15%;
+  }
+}
+/* fin de index.html */
+/*delicias.html */
+@media only screen and (min-width: 751px) {
+  .torta-mobile, .tarta-mobile, .alf-mobile {
+    display: none;
+  }
+  .p.contenedor-productos {
+    display: none;
+  }
+  .img-mobile {
+    display: none;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .titulos-2 {
+    display: none;
+  }
+  .grid-mobile {
+    display: grid;
+    grid-template-rows: repeat(3, auto); /* Tres filas de altura automática */
+    grid-row-gap: 10px; /* Espacio entre las palabras */
+  }
+}
+/* fin de delicias.html */
+/* regalitos.html */
+@media only screen and (max-width: 750px) {
+  .cj {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

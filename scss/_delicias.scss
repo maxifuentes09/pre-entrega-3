@@ -1,0 +1,27 @@
+@media only screen and (min-width: 751px){
+    .torta-mobile, .tarta-mobile, .alf-mobile{
+        display: none;
+    }
+    .p.contenedor-productos{
+        display: none;
+        
+    }
+    .img-mobile{
+        display: none;
+    }
+
+    
+}
+@media only screen and (max-width: 750px){
+    .titulos-2 {
+        display: none;}
+        .grid-mobile {
+            display: grid;
+            grid-template-rows: repeat(3, auto); /* Tres filas de altura automática */
+            grid-row-gap: 10px; /* Espacio entre las palabras */
+          }
+         
+       
+    
+    
+}

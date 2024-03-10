@@ -1,0 +1,62 @@
+.link-ad{
+    margin: 0px;
+    text-decoration: none;
+    color: map-get($bg-user, color-standar );
+}
+
+
+
+
+.link-logo{margin: 5px;
+
+}
+img{
+    width: 86%; 
+    height: auto;
+}
+
+
+.gw{
+    @extend %posicion;
+}
+.contac{
+    width: 25%;
+    height: auto;
+   
+}
+.contac2{
+    
+    width: 87%;
+    height: 100%;
+
+}
+.productos-1{ 
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 6px;
+grid-row-gap: 0p;
+}
+
+
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 150px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    .caj{border-bottom: 2px solid rgb(41, 126, 41) ;
+        width: 50%;
+        height: auto;
+         
+    }
+    .regalo{
+        @extend %posicion;  
+    }
+    .mapa{ @extend %posicion;
+
+    }  

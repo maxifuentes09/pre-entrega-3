@@ -1,0 +1,54 @@
+h1{  
+    font-family: var(--font-secundary), sans-serif;
+
+    font-size: 100px;
+   margin: 10px 100px 80px 100px;
+    border-bottom: 4px solid rgb(41, 126, 41);
+   display: flex;
+   justify-content: center;
+
+    padding-bottom: 0px;
+    padding-top: 184px;
+    
+}
+h3{
+    font-family: var(--font-secundary);
+    font-size: 40px;
+    margin: 10px 63% 8px 10px;
+     border-bottom: map-get($bg-user,border-3 );
+     
+}
+.titulos-2 {
+    font-family: var(--font-secundary);
+    font-size: 45px;
+    margin: 13px 72% 8px 10px;
+    border-bottom:map-get($bg-user,border-3 );
+    width: 97%;
+    display: flex;
+    justify-content: space-around;
+}
+.cj{     font-family: var(--font-secundary);
+    font-size: 45px;
+    border-bottom: map-get($bg-user, border-second );
+    display: flex;
+    justify-content: center;
+}
+    
+    .anis{
+        position: relative;
+        top: -52px;
+        left: 160px;
+    }
+    ul{ list-style: none;}
+
+    li{ margin-right: 170px;
+        margin-left: 170px;
+        text-align: center;
+        margin-bottom: 72px;
+        border-bottom:map-get($bg-user, border-second );
+        font-family: 'Oswald', sans-serif;
+        font-size: 40px;
+        
+    }a{text-decoration: none;
+        margin: 100px;
+    }

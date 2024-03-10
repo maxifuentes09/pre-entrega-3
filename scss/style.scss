@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2? family= El+Messiri & family= Oswald:wght@300 & family= PT+Serif:ital@1 & display=swap');
+*{
+    margin: 0;
+    padding: 1px;
+}
+:root{
+    --font-secundary:"oswald"
+}
+
+
+
+      
+
+
+section{
+    ul{
+        li{
+            a{
+                color: map-get($bg-user, color-standar );
+            }
+        }
+    }
+}
+
+@import "multimedia";
+@import "textos";
+@import "titulos";
+@import "logo";
+@import "regalitos";
+@import "delicias";
+@import "index";
+@import "heeader";
+@import "hover";
+@import "extends";
+@import "mapas";
+
+
+
+
+    
+ 
+ 
+        
+         
+
+
+       

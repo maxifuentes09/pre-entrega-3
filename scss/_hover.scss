@@ -1,0 +1,17 @@
+li:hover {
+    color: rgb(41, 126, 41); 
+    font-size: 3em; 
+    text-shadow: 2px 2px 4px rgb(41, 126, 41); 
+  }
+  #title:hover {
+    color: black; 
+    font-size: 5.2em; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  .anis:hover{
+    
+        color:black; /* Nuevo color de texto al pasar el cursor */
+        font-size: 1.9em; /* Aumenta el tamaño de la fuente al pasar el cursor */
+        text-shadow: 1px 1px 3px ; /* Añade un efecto de sombra al texto al pasar el cursor */
+      
+  }
